@@ -1,0 +1,118 @@
+@media (max-width: 740px) {
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #nav li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .menu-mobile {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+    
+
+    #content .content-section {
+        padding-bottom: 96px;
+    }
+
+    .content-section .contact-section {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .contact-section .contact-name {
+        width: 100%;
+        padding-top: 8px;
+    }
+
+    .contact-section .contact-message {
+        margin-top: -4px;
+    }
+
+    .contact-section .form-submit {
+        width: 100%;
+    }
+
+    .contact-section .contact-content {
+        padding-bottom: 8px;
+    }
+
+    #content .section-sub-heading {
+        padding-bottom: 48px;
+    }
+
+    .place-item {
+        width: 100%;
+        padding-bottom: 16px;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .member-name {
+        padding-top: 32px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+    
+
+}
+@media (max-width: 1023px) {
+    .contact-section .form-submit,
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    .contact-section .form-control {
+        padding: 13px;
+    }
+
+    #footer .social {
+        font-size: 30px;
+    }
+
+    #footer a {
+        margin: 0 8px;
+        padding: 16px 0;
+        display: inline-block;
+    }
+
+    #nav .subnav a {
+        padding: 4px 12px; 
+    }
+}
